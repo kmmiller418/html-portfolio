@@ -103,4 +103,5 @@ nav h3 {
 .images img {
   max-width: 500px;
   object-fit: contain;
+  border-radius: 18px;
 }

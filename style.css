@@ -1,11 +1,86 @@
 :root {
-    --brown: #5C4B51;
-    --teal: #8CBEB2;
-    --yellow: #F2EBBF;
-    --orange: #F3B562;
-    --red: #F06060;
-  }
+  --brown: #5c4b51;
+  --teal: #8cbeb2;
+  --yellow: #f2ebbf;
+  --orange: #f3b562;
+  --red: #f06060;
+}
 
-  /* Use like so: body { background-color: var(--blue); }
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  h2 { border-bottom: 2px solid var(--blue); } */
+header,
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header {
+  background-image: url("https://images.pexels.com/photos/251603/pexels-photo-251603.jpeg");
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  padding: 5em 10em;
+  color: var(--brown);
+}
+
+nav,
+.header-content {
+  width: 100%;
+  justify-content: space-between;
+}
+
+nav h3 {
+  font-size: 28px;
+  color: var(--brown);
+}
+
+.nav-links {
+  display: flex;
+  cursor: pointer;
+}
+
+.nav-links ul {
+  list-style: none;
+  font-size: 18px;
+  display: flex;
+}
+
+.nav-links li {
+  padding: 1em;
+}
+
+.header-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }  
+
+.header-text {
+  margin-top: 20px;
+  width: 30%;
+}
+
+.header-text h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.header-text p {
+    background-color: #f2ebbf;
+    padding: 5em;
+    border-radius: 30%;
+}
+
+.img-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  width: 40%;
+  background-color: #6d747e;
+}
+

@@ -1,0 +1,11 @@
+:root {
+    --brown: #5C4B51;
+    --teal: #8CBEB2;
+    --yellow: #F2EBBF;
+    --orange: #F3B562;
+    --red: #F06060;
+  }
+
+  /* Use like so: body { background-color: var(--blue); }
+
+  h2 { border-bottom: 2px solid var(--blue); } */

@@ -1,5 +1,9 @@
 # Portfolio
 
+Page can be viewed [HERE](https://kmmiller418.github.io/html-portfolio/)
+
+<hr>
+
 Future Implementations:
 * Splash Screen!
 * Scrollspy ?

@@ -94,3 +94,13 @@ nav h3 {
   width: 80%;
   height: 2em;
 }
+
+.images {
+  margin-top: 3em;
+  margin-left: 25%;
+}
+
+.images img {
+  max-width: 500px;
+  object-fit: contain;
+}

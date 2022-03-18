@@ -45,6 +45,14 @@ nav h3 {
   cursor: pointer;
 }
 
+.nav-links a:hover{
+  color: var(--orange);
+}
+
+.nav-links a:visited{
+  color: var(--red);
+}
+
 .nav-links ul {
   list-style: none;
   font-size: 18px;

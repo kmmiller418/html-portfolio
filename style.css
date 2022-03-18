@@ -117,6 +117,12 @@ nav h3 {
   border-radius: 18px;
 }
 
+.accordion-header button{
+  color: var(--red);
+  font-weight: bold;
+  font-size: 16px;
+}
+
 .accordion-content {
   z-index: 2;
 }

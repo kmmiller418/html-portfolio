@@ -10,9 +10,11 @@ body {
   height: 100vh;
   margin: 0;
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
   background-image: url("https://images.pexels.com/photos/1054222/pexels-photo-1054222.jpeg");
   background-position: center;
   background-size: cover;
@@ -24,7 +26,6 @@ section {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 header, section {
@@ -33,6 +34,7 @@ header, section {
 }
 
 nav {
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -69,8 +71,7 @@ nav h3 {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-between;
-  margin: 0 2em;
+  margin: 3em;
   padding: 2em;
 }
 
@@ -134,11 +135,14 @@ footer {
   width: 100%;
   height: 4em;
   margin-top: 4em;
-  background-color: white;
+  background-color: var(--brown);
   font-size: 12px;
-  color: var(--brown);
+  color: white;
 }
 
+footer a {
+  color: var(--teal);
+}
 
 /* ANIMATIONS  */
 
@@ -148,7 +152,7 @@ footer {
   background-image: linear-gradient(
     -225deg,
     var(--orange) 0%,
-    var(--brown) 29%,
+    var(--teal) 29%,
     var(--yellow) 67%,
     var(--red) 100%
   );

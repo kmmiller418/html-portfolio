@@ -4,6 +4,7 @@
   --yellow: #f2ebbf;
   --orange: #f3b562;
   --red: #f06060;
+  --animate-delay: 1s;
 }
 
 body {
